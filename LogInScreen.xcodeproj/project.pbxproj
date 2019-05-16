@@ -12,6 +12,8 @@
 		F1B230D3228CF614002E6B2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B230D1228CF614002E6B2B /* Main.storyboard */; };
 		F1B230D5228CF615002E6B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B230D4228CF615002E6B2B /* Assets.xcassets */; };
 		F1B230D8228CF615002E6B2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B230D6228CF615002E6B2B /* LaunchScreen.storyboard */; };
+		F1B230E3228D09A0002E6B2B /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B230E1228D09A0002E6B2B /* BackgroundView.swift */; };
+		F1B230E4228D09A0002E6B2B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B230E2228D09A0002E6B2B /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F1B230D4228CF615002E6B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1B230D7228CF615002E6B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1B230D9228CF615002E6B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B230E1228D09A0002E6B2B /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		F1B230E2228D09A0002E6B2B /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				F1B230CF228CF614002E6B2B /* ViewController.swift */,
+				F1B230E1228D09A0002E6B2B /* BackgroundView.swift */,
+				F1B230E2228D09A0002E6B2B /* CustomTextField.swift */,
 				F1B230E0228CF62F002E6B2B /* Storyboards */,
 				F1B230DF228CF622002E6B2B /* Resources */,
 			);
@@ -151,6 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B230E4228D09A0002E6B2B /* CustomTextField.swift in Sources */,
+				F1B230E3228D09A0002E6B2B /* BackgroundView.swift in Sources */,
 				F1B230D0228CF614002E6B2B /* ViewController.swift in Sources */,
 				F1B230CE228CF614002E6B2B /* AppDelegate.swift in Sources */,
 			);

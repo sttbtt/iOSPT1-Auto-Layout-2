@@ -2,7 +2,18 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "blue-button.pdf"
+      "filename" : "blue-button.pdf",
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "tile",
+          "width" : 4
+        },
+        "cap-insets" : {
+          "right" : 4,
+          "left" : 4
+        }
+      }
     }
   ],
   "info" : {

@@ -2,7 +2,18 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "textfield-background.pdf"
+      "filename" : "textfield-background.pdf",
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1
+        },
+        "cap-insets" : {
+          "right" : 4,
+          "left" : 4
+        }
+      }
     }
   ],
   "info" : {
